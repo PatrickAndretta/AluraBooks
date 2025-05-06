@@ -1,0 +1,95 @@
+.banner-angular {
+  background-color: var(--branco);
+  border-radius: 10px;
+  margin: 1em;
+  padding: 1.5em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.banner-angular-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.banner__container-texto {
+  width: 100%;
+  margin-right: 1em;
+}
+
+.banner-angular__titulo {
+  color: var(--laranja);
+  font-size: 16px;
+  font-weight: var(--bold-font);
+  margin: 1em 0;
+}
+
+.banner-angular__subtitulo {
+  background-image: var(--azul-degrade);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 18px;
+  font-weight: var(--bold-font);
+  margin: 1em 0;
+}
+
+.banner-angular__texto {
+  color: var(--preto);
+  font-size: 14px;
+  font-weight: var(--regular-font);
+}
+
+.banner-angular__links {
+ margin: 0 1em;
+}
+
+.banner-angular-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.saiba-mais__botao {
+  width: 161px;
+  background-color: var(--laranja);
+  text-decoration: none;
+  color: var(--branco);
+  padding: 1em 0em;
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  
+  .banner-angular {
+    width: 40%;
+    margin: 2em auto;
+  }
+
+}
+
+@media screen and (min-width: 1728px) {
+  .banner-angular {
+    width: 30%;
+
+  }
+
+  .banner-angular__titulo {
+    font-size: 32px;
+  }
+
+  .banner-angular__texto {
+
+    font-size: 16px;
+  }
+
+  .banner__container-texto {
+    width: 100%;
+    margin-right: 2em;
+  }
+
+  .banner-angular-2 {
+    margin-top: 3em;
+  }
+}
